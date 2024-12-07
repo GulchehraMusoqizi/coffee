@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+///COLORS
+$c-white:#FFFFFF;
+$c-blue:#EEEFF1;
+$c-black:#1B1B1D;
+$c-shadov:#A3A8B226;
+$c-yellow:#FFB700;
+$c-darkgray:#64646A;
+
+
+.sml-btn{
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+       
+        
+    }
+}
+.big-btn{
+    display: block;
+    width: 225px;
+    height: 70px;
+    border-radius: 126px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px ;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    text-align: center;
+
+    &:hover{
+        opacity: 70%;
+       
+        
+    }
+}
+
+.btn-long{
+    
+    width: 225px;
+    height: 60px;
+    border-radius: 126px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+        
+       
+    }
+}
+.shot-btn{
+    width: 191px;
+    height: 70px;
+    border-radius: 126px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+        
+        
+    }
+}
+.sup-shot-btn{
+    width: 181px;
+    height: 60px;
+    border-radius: 126px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+        
+    }
+}
+.sup-long-btn{
+    width: 268px;
+    height: 70px;
+    border-radius: 126px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 10px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+    }
+}
+.sup-litl-btn{
+    width: 171px;
+    height: 70px;
+    border-radius: 97px;
+    color: $c-white;
+    background: $c-black;
+    box-shadow:0 0 30px $c-shadov;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+
+    &:hover{
+        opacity: 70%;
+    }
+}

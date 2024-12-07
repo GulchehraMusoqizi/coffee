@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+
+.site{
+    max-width: 1440px;
+    // border: 1px solid red;
+    margin: auto;
+    overflow-x: hidden;
+}
+.container{
+    padding: 0 100px;
+}
+
+#menu{
+    display: none;
+}
+#menu:checked ~ label .fa-bars{
+    display: none;
+}
+#menu:checked ~ label .fa-x{
+    display: block;
+}
+label{
+    font-size: 32px;
+   .fa-x{
+     display: none;
+    }
+}

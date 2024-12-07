@@ -1,0 +1,360 @@
+@media(max-width:1100px){
+    header{
+        position: relative;
+        nav{
+            
+            .navbar{
+                gap: 20px;
+                
+                label{
+                    display: block;
+
+                }
+
+                #menu:checked ~ .nav-links ul{
+                    // display: block;
+                    opacity: 100;
+                    transform: translateX(0);
+                    transition: 3s ease-in-out;
+                    z-index: 1000;
+                    
+                }
+
+                .nav-links{
+                    
+                    ul{
+                        // display: none;
+                        opacity: 0;
+                        position: absolute;
+                        top: 100px;
+                        right:0;
+                       
+                        width: 80%;
+                        background: $c-white;
+                        border: 5px solid $c-black;
+                        padding: 50px;
+                        flex-direction: column;
+                        gap: 50px;
+                        z-index: 100;
+                        transform: translateX(-100%);
+
+                        li{
+                            a{
+                                font-size: 20px;
+                            }
+                           
+                        }
+                    }
+                }
+
+                .nav-btn{
+
+                    .sml-btn{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .logo{
+            flex-direction: column-reverse;
+            gap: 100px;
+            
+
+            .logo-info{
+                width: 100%;
+                text-align: center;
+                h1{
+                    line-height: 90px;
+                }
+                .logo-link{
+                    padding: 0 20%;
+                }
+            }
+            .logotip{
+                width: 80%;
+                
+            }
+        }
+    }
+
+    .about{
+        .stakan{
+            display: none;
+        }
+
+        .about-team{
+            
+
+            .about-menu{
+                flex-direction: column;
+
+                .box{
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .favorite{
+            flex-direction: column-reverse;
+            gap: 10px;
+            position: relative;
+
+            .favorite-img{
+                width: 100%;
+               text-align: center;
+               margin-left: 0;
+               margin-top: -100px;
+            }
+
+            .favorite-info{
+                width: 100%;
+                text-align: center;
+            }
+            a{
+                position: absolute;
+                right: 40%;
+                bottom: -5%;
+            }
+        }
+    }
+
+    .sell{
+
+        .sell-coffee{
+            .sell-info{
+                p{
+                    padding: 30px 0;
+                }
+            }
+
+            .sell-box{
+                flex-direction: column;
+
+                .box{
+                    width: 80%;
+
+                }
+                
+            }
+        }
+
+        .home{
+
+            .home-info{
+                width: 100%;
+
+                a{
+                    margin: auto;
+                }
+            }
+            .home-img{
+                display: none;
+            }
+        }
+    }
+
+    .comment{
+
+        .customer{
+            flex-direction: column-reverse;
+            
+            .simmons{
+                display: none;
+            }
+            .imam{
+                width: 90%;
+            }
+            .what{
+                width: 100%;
+               
+            }
+        }
+    }
+    .footer{
+        .foot{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .footer-box{
+                width: 80%;
+            }
+            .footer-box2{
+                width: 80%;
+                padding-left: 0px;
+            }
+            .end{
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+    }
+}
+
+
+
+
+@media(max-width:700px){
+    .container{
+        padding: 0 5%;
+    }
+    .comment{
+        .yarimta{
+            display: none;
+        }
+    }
+}
+
+@media(max-width:500px){
+    header{
+        .logo{
+            .logo-info{
+                width: 100%;
+                p{
+                    font-size: 18px;
+                    text-align: center;
+                    padding: 50px 20px;
+                }
+                .logo-link{
+                    flex-direction: column;
+                    .big-btn{
+                        font-size: 18px;
+                    }
+
+                }
+                
+            }
+            .logotip{
+                .medal-img{
+                    margin-left: 20%;
+                }
+            }
+        }
+        
+    }
+    .about{
+        .about-team{
+            .about-us{
+                p{
+                    font-size: 18px;
+                    text-align: center;
+                    padding: 20px ;
+                }
+            }
+            .about-menu{
+                .box{
+                    width: 100%;
+                    p{
+                        font-size: 18px;
+                    }
+                    img{
+                        margin: 30px ;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .favorite{
+            .favorite-info{
+                width: 100%;
+                p{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .shot-btn{
+                    right: 10%;
+                    
+                }
+            }
+        }
+    }
+    .sell{
+        .sell-coffee{
+            .sell-box{
+                .box{
+                    width: 100%;
+                }
+
+            }
+        }
+        .home{
+            padding: 100px 0;
+            .burchak{
+                display: none;
+            }
+            .home-info{
+                padding: 30px 20px;
+            }
+        }
+    }
+    .comment{
+        .customer{
+            .imam{
+                .cust-info{
+                    padding: 20px 10px;
+                    .cust-logo{
+                        h4{
+                            font-size: 20px;
+                        }
+                        .icon{
+                            flex-wrap: nowrap;
+                            i{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .foot{
+            .footer-box{
+                width:100%;
+                .delicious{
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .location{
+                    p{
+                       font-size: 18px; 
+                    }
+                }
+            }
+            .footer-box2{
+                width: 100%;
+                padding: 0;
+                .contact{
+                    h4{
+                        font-size: 32px;
+                    }
+                    p{
+                        font-size: 18px;
+                        
+                    }
+                    .icon{
+                        gap:20px;
+                        i{
+                            font-size: 22px;
+                        }
+                    }
+                }
+                .first{
+                    h4{
+                        font-size: 32px;
+                    }
+                }
+            }
+            .end{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}
